@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+  color:#eaf6ea;
+
+  background:
+    radial-gradient(circle at 20% 20%, #3f7f4f 0%, transparent 40%),
+    radial-gradient(circle at 80% 30%, #2f6b3f 0%, transparent 45%),
+    radial-gradient(circle at 50% 80%, #255a34 0%, transparent 50%),
+    #1f3d2b;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:90px 20px;
+}
+
+.hero h1{
+  font-size:46px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:18px;
+  opacity:0.85;
+}
+
+/* BUTTON */
+button{
+  margin-top:20px;
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:#eaf6ea;
+  color:#1f3d2b;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.06);
+}
+
+/* CARDS */
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  padding:40px 20px;
+}
+
+.card{
+  background: rgba(255,255,255,0.08);
+  padding:25px;
+  border-radius:16px;
+  width:260px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background: rgba(255,255,255,0.12);
+}
+
+/* EXTRA */
+.extra{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.box{
+  background: rgba(255,255,255,0.06);
+  padding:20px;
+  border-radius:12px;
+  width:220px;
+  text-align:center;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  opacity:0.8;
+}
+/* BOŞLUK */
+.gap{
+  height:12px;
+}
+/* BOŞLUK */
+.info-gap{
+  height:10px;
+}
